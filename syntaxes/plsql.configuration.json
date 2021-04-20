@@ -1,0 +1,33 @@
+{
+    "comments": {
+        // symbol used for single line comment. Remove this entry if your language does not support line comments
+        "lineComment": "--",
+        // symbols used for start and end a block comment. Remove this entry if your language does not support block comments
+        "blockComment": [ "/*", "*/" ]
+    },
+    // symbols used as brackets
+    "brackets": [
+        ["(", ")"],
+        ["{", "}"],
+        ["if", "end if"],
+        ["loop", "end loop"],
+        ["case", "end case"]
+        // ["begin", "end"]
+    ],
+    "autoClosingPairs": [
+        ["(", ")"],
+        ["{", "}"],
+        ["/*", "*/"],
+        ["\"", "\""],
+        ["'", "'"]
+    ],
+    "surroundingPairs": [
+        ["(", ")"],
+        ["{", "}"],
+        ["\"", "\""],
+        ["'", "'"]
+    ],
+    // Default without $# (dont' work with getWordRangeAtPosition() according to issue #42649)
+    "wordPattern":
+        "(-?\\d*\\.\\d\\w*)|([^\\`\\~\\!\\@\\%\\^\\&\\*\\(\\)\\-\\=\\+\\[\\{\\]\\}\\\\\\|\\;\\:\\'\\\"\\,\\.\\<\\>\\/\\?\\s]+)"
+}
