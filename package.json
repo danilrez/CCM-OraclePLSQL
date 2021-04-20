@@ -2,20 +2,24 @@
 	"name": "ccm-plsql-oracle",
 	"displayName": "CCM Oracle PL/SQL",
 	"description": "Oracle PL/SQL syntax highlighting",
-	"version": "1.0.0",
+	"version": "0.1.0",
 	"publisher": "CrappyCodeMaker",
-	"engines": {
-		"vscode": "^1.5.0"
-	},
+	"icon": "icon.png",
+  "galleryBanner": {
+  "color": "#525B7C",
+  "theme": "dark"
+  },
 	"homepage": "https://github.com/CrappyCodeMaker/CCM-OraclePLSQL",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/CrappyCodeMaker/CCM-OraclePLSQL"
+		"url": "https://github.com/CrappyCodeMaker/CCM-OraclePLSQL.git"
 	},
 		"bugs": {
 		"url": "https://github.com/CrappyCodeMaker/CCM-OraclePLSQL/issues"
 	},
-	"icon": "images/icon.png",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
 	"categories": [
 		"Programming Languages"
 	],
