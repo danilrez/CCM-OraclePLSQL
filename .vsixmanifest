@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Language="en-US" Id="plsql-oracle" Version="1.0.0" Publisher="CrappyCodeMaker"/>
+    <DisplayName>CCM Oracle PL/SQL</DisplayName>
+    <Description xml:space="preserve">Oracle PL/SQL syntax highlighting</Description>
+    <Tags>plsql,oracle,multi-root ready,PLSQL,PL/SQL,__ext_sql,__ext_ddl,__ext_dml,__ext_pkh,__ext_pks,__ext_pkb,__ext_pck,__ext_pls,__ext_plb,__ext_bdy,__ext_fnc,__ext_idx,__ext_mv,__ext_prc,__ext_prg,__ext_sch,__ext_seq,__ext_spc,__ext_syn,__ext_tab,__ext_tbl,__ext_tbp,__ext_tps,__ext_trg,__ext_typ,__ext_vw,sql</Tags>
+    <Categories>Programming Languages</Categories>
+    <GalleryFlags>Public</GalleryFlags>
+    <Badges></Badges>
+    <Properties>
+      <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.32.3" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+      <Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+      
+        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/CrappyCodeMaker/CCM-OraclePLSQL.git" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/CrappyCodeMaker/CCM-OraclePLSQL.git" />
+        
+          <Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/CrappyCodeMaker/CCM-OraclePLSQL.git" />
+        
+      
+      <Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/CrappyCodeMaker/CCM-OraclePLSQL/issues" />
+      <Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/CrappyCodeMaker/CCM-OraclePLSQL" />
+      
+      
+      <Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+      
+      
+    </Properties>
+    <License>extension/LICENSE.txt</License>
+    <Icon>extension/images/plsql-icon.png</Icon>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+  </Installation>
+  <Dependencies/>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Content.License" Path="extension/LICENSE.txt" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/images/plsql-language.png" Addressable="true" />
+  </Assets>
+</PackageManifest>
