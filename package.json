@@ -28,7 +28,7 @@
 		"oracle",
 		"CCM",
 		"plsql oracle",
-		"oracle plsql",
+		"oracle plsql"
 	],	
 	"contributes": {
 		"languages": [
