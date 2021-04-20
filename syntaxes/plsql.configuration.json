@@ -5,30 +5,40 @@
         // symbols used for start and end a block comment. Remove this entry if your language does not support block comments
         "blockComment": [ "/*", "*/" ]
     },
-    // symbols used as brackets
+        // symbols used as brackets
     "brackets": [
-        ["(", ")"],
         ["{", "}"],
-				["[", "]"],
+        ["[", "]"],
+        ["(", ")"],
         ["if", "end if"],
         ["loop", "end loop"],
-        ["case", "end case"]
+        ["case", "end case"],
         ["begin", "end"]
     ],
     "autoClosingPairs": [
-        ["(", ")"],
-        ["{", "}"],
+				["(", ")"],
+				["{", "}"],
 				["[", "]"],
-        ["/*", "*/"],
-        ["\"", "\""],
-        ["'", "'"]
+				["/*", "*/"],
+				["\"", "\""],
+				["'", "'"]
     ],
-    "surroundingPairs": [
-        ["(", ")"],
+    // symbols that are auto closed when typing
+    "autoClosingPairs": [
         ["{", "}"],
-				["[", "]"],
+        ["[", "]"],
+        ["(", ")"],
         ["\"", "\""],
-        ["'", "'"]
+        ["/*", "*/"],
+        { "open": "'", "close": "'", "notIn": ["string", "comment"] }
+    ],
+    // symbols that that can be used to surround a selection
+    "surroundingPairs": [
+        ["{", "}"],
+        ["[", "]"],
+        ["(", ")"],
+        ["\"", "\""],
+        ["'", "'"] 
     ],
     // Default without $# (dont' work with getWordRangeAtPosition() according to issue #42649)
     "wordPattern":
