@@ -1,7 +1,24 @@
-# CCM PL/SQL Highlighting
+<h1 style="background: #525B7C; font-weight: bold">CCM Oracle PL/SQL Highlighting </h1>
 
-| <div style="background: #525B7C;"><div style="margin: 10px"><p style="font-size: 17px; font-weight: bold; color: orange">CCM - Oracle PL/SQL:</p><p style="font-size: 16px">this extension adds support for the PL/SQL (Oracle) to Visual Studio Code.</p></div></div> | <a href="https://marketplace.visualstudio.com/items?itemName=CrappyCodeMaker.crappycode-theme"><img alt="crappycode banner" width="200" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/title.png"></a> |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+<div style="background: #525B7C;">
+<div style="margin: 10px">
+<p style="font-size: 16px; color: white;">
+<p style="font-weight: bold">This extension adds full syntax highlight for Oracle PL/SQL.</p>
+
+An advanced customization can be done by using an extensionDependencies, follow this exemple:
+
+1. Make backup for this folder: _PATH_\\**crappycodemaker.ccm-plsql-oracle\syntaxes**
+
+    _PATH_ according to your platform:
+
+    - **Windows** %USERPROFILE%\\.vscode\extensions
+    - **Mac** ~/.vscode/extensions
+    - **Linux** ~/.vscode/extensions
+
+2. Modify **syntaxes** with some custom definitions
+ </p>
+ </div>
+ </div>
 
 ## Installation
 
