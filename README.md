@@ -1,10 +1,9 @@
-<h1 style="background: #525B7C; font-weight: bold">CCM Oracle PL/SQL Highlighting </h1>
+<div style="background: #525B7C;"><div style="padding: 10px"><h1 style="font-weight: bold; color: orange">CCM Oracle PL/SQL Highlighting </h1></div></div>
 
 <div style="background: #525B7C;">
-<div style="margin: 10px">
+<div style="padding: 10px">
+<p style="font-size: 16px; font-weight: bold; color: white">This extension adds full syntax highlight for Oracle PL/SQL.</p>
 <p style="font-size: 16px; color: white;">
-<p style="font-weight: bold">This extension adds full syntax highlight for Oracle PL/SQL.</p>
-
 An advanced customization can be done by using an extensionDependencies, follow this exemple:
 
 1. Make backup for this folder: **_PATH_**\\**crappycodemaker.ccm-plsql-oracle\syntaxes**
