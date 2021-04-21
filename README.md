@@ -5,13 +5,13 @@
 <p style="font-size: 16px; color: white;">
 An advanced customization can be done by using an extensionDependencies, follow this exemple:
 </p><p style="font-size: 16px; color: white;">
-1. Make backup for this folder: **_PATH_**\\**crappycodemaker.ccm-plsql-oracle\syntaxes**
+1. Make backup for this folder: <b><i>PATH</i></b>\\<b>crappycodemaker.ccm-plsql-oracle\syntaxes</b>
 
-    PATH according to your platform:
-
-    - **Windows** %USERPROFILE%\\.vscode\extensions
-    - **Mac** ~/.vscode/extensions
-    - **Linux** ~/.vscode/extensions
+> <b>PATH</b> according to your platform:
+>
+> -   <b>Windows</b> %USERPROFILE%\\.vscode\extensions
+> -   <b>Mac</b> ~/.vscode/extensions
+> -   <b>Linux</b> ~/.vscode/extensions
 
 </p><p style="font-size: 16px; color: white;">
 2. Modify **syntaxes** with some custom definitions
