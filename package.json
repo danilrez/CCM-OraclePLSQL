@@ -33,7 +33,7 @@
 	"contributes": {
 		"languages": [
 			{
-				"id": "plsql",
+				"id": "ccm-plsql",
 				"aliases": [
 					"PL/SQL (Oracle)",
 					"PL/SQL",

@@ -7,13 +7,13 @@
     },
         // symbols used as brackets
     "brackets": [
-        ["{", "}"],
-        ["[", "]"],
-        ["(", ")"],
-        ["if", "end if"],
+		["if", "end if"],
         ["loop", "end loop"],
         ["case", "end case"],
-        ["begin", "end"]
+        ["begin", "end"],
+        ["{", "}"],
+        ["[", "]"],
+        ["(", ")"]
     ],
     "autoClosingPairs": [
         ["{", "}"],
@@ -31,7 +31,14 @@
         ["\"", "\""],
         ["'", "'"] 
     ],
-    // Default without $# (dont' work with getWordRangeAtPosition() according to issue #42649)
+    //"folding": {
+    //    "markers": {
+    //        "offSide"  :true,
+    //        "start" : "\\S*[Bb][Ee][Gg][Ii][nN]\\b", 
+    //        "end" : "\\S*[eE][Nn][Dd]\\b",
+    //    }
+    //},
+    // Default
     "wordPattern":
-        "(-?\\d*\\.\\d\\w*)|([^\\`\\~\\!\\@\\%\\^\\&\\*\\(\\)\\-\\=\\+\\[\\{\\]\\}\\\\\\|\\;\\:\\'\\\"\\,\\.\\<\\>\\/\\?\\s]+)"
+        "(-?\\d*\\.\\d\\w*)|([^\\`\\~\\!\\@\\%\\^\\&\\*\\(\\)\\-\\=\\+\\[\\{\\]\\}\\\\\\|\\;\\:\\'\\\"\\,\\.\\<\\>\\/\\?\\s]+)"	
 }
