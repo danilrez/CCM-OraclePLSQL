@@ -37,8 +37,7 @@
 				"aliases": [
 					"PL/SQL (Oracle)",
 					"PL/SQL",
-					"PLSQL",
-					"plsql"
+					"PLSQL"
 				],
 				"extensions": [
 					".sql",
@@ -73,7 +72,7 @@
 		],
 		"grammars": [
 			{
-				"language": "plsql",
+				"language": "ccm-plsql",
 				"scopeName": "source.plsql.oracle",
 				"path": "./syntaxes/plsql.tmLanguage"
 			}
