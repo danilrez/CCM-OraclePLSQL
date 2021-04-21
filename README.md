@@ -7,9 +7,9 @@
 
 An advanced customization can be done by using an extensionDependencies, follow this exemple:
 
-1. Make backup for this folder: _PATH_\\**crappycodemaker.ccm-plsql-oracle\syntaxes**
+1. Make backup for this folder: **_PATH_**\\**crappycodemaker.ccm-plsql-oracle\syntaxes**
 
-    _PATH_ according to your platform:
+    **_PATH_** according to your platform:
 
     - **Windows** %USERPROFILE%\\.vscode\extensions
     - **Mac** ~/.vscode/extensions
