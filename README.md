@@ -7,7 +7,7 @@ An advanced customization can be done by using an extensionDependencies, follow 
 </p><p style="font-size: 16px; color: white;">
 1. Make backup for this folder: **_PATH_**\\**crappycodemaker.ccm-plsql-oracle\syntaxes**
 
-    **_PATH_** according to your platform:
+    PATH according to your platform:
 
     - **Windows** %USERPROFILE%\\.vscode\extensions
     - **Mac** ~/.vscode/extensions
