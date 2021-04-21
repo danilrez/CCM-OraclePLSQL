@@ -21,9 +21,9 @@ An advanced customization can be done by using an extensionDependencies, follow 
 ## Installation
 
 1. Open the **Extensions** sidebar in VS Code
-1. Search for `CCM Oracle PL/SQL`
-1. Click **Install**
-1. Enjoy! 🎉
+2. Search for `CCM Oracle PL/SQL`
+3. Click **Install**
+4. Enjoy! 🎉
 
 ## Feedback
 
