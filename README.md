@@ -10,11 +10,11 @@ An advanced customization can be done by using an extensionDependencies, follow 
 
 1. Make backup for this folder: <b style="color: #fad184;"><i style="color: #ffa500;">PATH</i>\crappycodemaker.ccm-plsql-oracle\syntaxes</b>
 
-> <b style="color: #ffa500;">PATH</b><h7 style="color: white"> according to your platform:</h7>
+> <p style="color: white"><b style="color: #ffa500;">PATH</b> according to your platform:</p>
 >
-> -   <b style="color: white;">Windows</b><h7 style="color: white"> %USERPROFILE%\\.vscode\extensions</h7>
-> -   <b style="color: white;">Mac</b><h7 style="color: white"> ~/.vscode/extensions</h7>
-> -   <b style="color: white;">Linux</b><h7 style="color: white"> ~/.vscode/extensions</h7>
+> -   <p style="color: white"><b style="color: white;">Windows</b> %USERPROFILE%\\.vscode\extensions</p>
+> -   <p style="color: white"><b style="color: white;">Mac</b> ~/.vscode/extensions</p>
+> -   <p style="color: white"><b style="color: white;">Linux</b> ~/.vscode/extensions</p>
 
 2. Modify <b style="color: #ffb938;">syntaxes</b> with some custom definitions
 
