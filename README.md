@@ -1,8 +1,10 @@
 # CCM PL/SQL Highlighting
 
-<p style="background:#525B7C; font-size:16px">`CCM - Oracle PL/SQL:` this extension adds support for the PL/SQL (Oracle) to Visual Studio Code.</p>| <a href="https://marketplace.visualstudio.com/items?itemName=CrappyCodeMaker.crappycode-theme"><img alt="crappycode banner" width="155" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/title.png"></a>
- ------------- |:-------------:
+| <p style="background:#525B7C; font-size:17px; color: white">`CCM - Oracle PL/SQL:` this extension adds support for the PL/SQL (Oracle) to Visual Studio Code.</p> | <a href="https://marketplace.visualstudio.com/items?itemName=CrappyCodeMaker.crappycode-theme"><img alt="crappycode banner" width="177" src="https://raw.githubusercontent.com/CrappyCodeMaker/Crappy-Code-Maker-Theme/main_theme/images/title.png"></a> |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+
 ---
+
 ## Installation
 
 1. Open the **Extensions** sidebar in VS Code
