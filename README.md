@@ -1,6 +1,7 @@
-<div style="background: #525B7C; border-radius: 5px"><div style="padding: 10px"><h1 style="font-weight: bold; color: #ffa500">CCM Oracle PL/SQL Highlighting </h1></div>
+<div style="background: #525B7C; border-radius: 5px"><div style="padding: 10px">
 
-<div style="background: #525B7C;"><div style="padding: 10px">
+<h1 style="font-weight: bold; color: #ffa500">CCM Oracle PL/SQL Highlighting </h1>
+
 <p style="font-weight: bold; color: white">This extension adds full syntax highlight for Oracle PL/SQL.</p>
 <p style="color: white;">
 An advanced customization can be done by using an extensionDependencies, follow this exemple:
@@ -15,9 +16,7 @@ An advanced customization can be done by using an extensionDependencies, follow 
 
 </p><p style="color: white;">
 2. Modify <b style="color: #ffb938;">syntaxes</b> with some custom definitions
-</p></div></div>
-
- <div style="background: #525B7C;"><div style="padding: 10px;color: white">
+</p>
 
 ## Installation
 
@@ -38,4 +37,3 @@ Authored by © [CrappyCodeMaker](https://github.com/CrappyCodeMaker)
 
  </div>
  </div>
-</div>
