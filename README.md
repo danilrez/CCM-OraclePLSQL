@@ -3,7 +3,7 @@
 <div style="color: white;">
 <p style="font-weight: bold; color: white">This extension adds full syntax highlight for Oracle PL/SQL.</p>
 
-An advanced customization can be done by using an extensionDependencies, follow this exemple:
+An advanced customization can be done just, follow this example:
 
 1. Make backup for this folder: <b style="color: #fad184;"><i style="color: #ffa500;">PATH</i>\crappycodemaker.ccm-plsql-oracle\syntaxes</b>
 
