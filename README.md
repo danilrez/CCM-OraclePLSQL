@@ -9,9 +9,9 @@ An advanced customization can be done by using an extensionDependencies, follow 
 
 > <p style="color: white"><b style="color: #ffa500;">PATH</b> according to your platform:</p>
 >
-> -   <p style="color: white"><b style="color: white;">Windows</b> %USERPROFILE%\\.vscode\extensions</p>
-> -   <p style="color: white"><b style="color: white;">Mac</b> ~/.vscode/extensions</p>
-> -   <p style="color: white"><b style="color: white;">Linux</b> ~/.vscode/extensions</p>
+> -   <i style="color: white"><b style="color: white;">Windows</b> %USERPROFILE%\\.vscode\extensions</i>
+> -   <i style="color: white"><b style="color: white;">Mac</b> ~/.vscode/extensions</i>
+> -   <i style="color: white"><b style="color: white;">Linux</b> ~/.vscode/extensions</i>
 
 2. Modify <b style="color: #ffb938;">syntaxes</b> with some custom definitions
 
