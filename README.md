@@ -1,20 +1,20 @@
-<div style="background: #525B7C;"><div style="padding: 10px"><h1 style="font-weight: bold; color: orange">CCM Oracle PL/SQL Highlighting </h1></div></div>
+<div style="background: #525B7C;"><div style="padding: 10px"><h1 style="font-weight: bold; color: #ffa500">CCM Oracle PL/SQL Highlighting </h1></div></div>
 
 <div style="background: #525B7C;"><div style="padding: 10px">
-<p style="font-size: 16px; font-weight: bold; color: white">This extension adds full syntax highlight for Oracle PL/SQL.</p>
-<p style="font-size: 16px; color: white;">
+<p style="font-weight: bold; color: white">This extension adds full syntax highlight for Oracle PL/SQL.</p>
+<p style="color: white;">
 An advanced customization can be done by using an extensionDependencies, follow this exemple:
-</p><p style="font-size: 16px; color: white;">
-1. Make backup for this folder: <b><i>PATH</i></b>\\<b>crappycodemaker.ccm-plsql-oracle\syntaxes</b>
+</p><p style="color: white;">
+1. Make backup for this folder: <b><i style="color: #ffa500;">PATH</i></b>\\<b style="color: #ffb938;">crappycodemaker.ccm-plsql-oracle</b>\<b style="color: #ffb938;">syntaxes</b>
 
-> <b>PATH</b> according to your platform:
+> <b style="color: #ffa500;">PATH</b> according to your platform:
 >
 > -   <b>Windows</b> %USERPROFILE%\\.vscode\extensions
 > -   <b>Mac</b> ~/.vscode/extensions
 > -   <b>Linux</b> ~/.vscode/extensions
 
-</p><p style="font-size: 16px; color: white;">
-2. Modify **syntaxes** with some custom definitions
+</p><p style="color: white;">
+2. Modify <b style="color: #ffb938;">syntaxes</b> with some custom definitions
 </p></div></div>
 
  <div style="background: #525B7C;"><div style="padding: 10px;color: white">
