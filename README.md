@@ -4,7 +4,7 @@
 <p style="font-size: 16px; font-weight: bold; color: white">This extension adds full syntax highlight for Oracle PL/SQL.</p>
 <p style="font-size: 16px; color: white;">
 An advanced customization can be done by using an extensionDependencies, follow this exemple:
-
+<p style="font-size: 16px; color: white;">
 1. Make backup for this folder: **_PATH_**\\**crappycodemaker.ccm-plsql-oracle\syntaxes**
 
     **_PATH_** according to your platform:
@@ -13,8 +13,9 @@ An advanced customization can be done by using an extensionDependencies, follow 
     - **Mac** ~/.vscode/extensions
     - **Linux** ~/.vscode/extensions
 
+<p style="font-size: 16px; color: white;">
 2. Modify **syntaxes** with some custom definitions
- </p>
+ </p></p></p>
  </div></div>
 
  <div style="background: #525B7C;"><div style="padding: 10px;color: white">
