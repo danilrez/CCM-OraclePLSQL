@@ -14,10 +14,12 @@
         <string>pls</string>
         <string>plb</string>
     </array>
-	<!--key>foldingStartMarker</key>
+	<!-- COMMING SOON>
+	<key>foldingStartMarker</key>
     <string>(?i)\S*(BEGIN|IF|LOOP|CASE)\b</string>
     <key>foldingStopMarker</key>
-    <string>(?i)\S*(END)\b</string -->
+    <string>(?i)\S*(END)\b</string>
+	<-->	
 	<key>keyEquivalent</key>
     <string>^~S</string>
     <key>name</key>
