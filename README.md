@@ -5,7 +5,7 @@
 <p style="color: white;">
 An advanced customization can be done by using an extensionDependencies, follow this exemple:
 </p><p style="color: white;">
-1. Make backup for this folder: <b><i style="color: #ffa500;">PATH</i></b>\\<b style="color: #ffb938;">crappycodemaker.ccm-plsql-oracle</b>\<b style="color: #ffb938;">syntaxes</b>
+1. Make backup for this folder: <b><i style="color: #ffa500;">PATH</i></b>\<b style="color: #ffb938;">crappycodemaker.ccm-plsql-oracle</b>\<b style="color: #ffb938;">syntaxes</b>
 
 > <b style="color: #ffa500;">PATH</b> according to your platform:
 >
