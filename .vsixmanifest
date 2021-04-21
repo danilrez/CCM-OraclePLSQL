@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Language="en-US" Id="plsql-oracle" Version="1.0.0" Publisher="CrappyCodeMaker"/>
+    <Identity Language="en-US" Id="ccm-plsql" Version="1.0.2" Publisher="CrappyCodeMaker"/>
     <DisplayName>CCM Oracle PL/SQL</DisplayName>
     <Description xml:space="preserve">Oracle PL/SQL syntax highlighting</Description>
     <Tags>plsql,oracle,multi-root ready,PLSQL,PL/SQL,__ext_sql,__ext_ddl,__ext_dml,__ext_pkh,__ext_pks,__ext_pkb,__ext_pck,__ext_pls,__ext_plb,__ext_bdy,__ext_fnc,__ext_idx,__ext_mv,__ext_prc,__ext_prg,__ext_sch,__ext_seq,__ext_spc,__ext_syn,__ext_tab,__ext_tbl,__ext_tbp,__ext_tps,__ext_trg,__ext_typ,__ext_vw,sql</Tags>
@@ -28,7 +28,7 @@
       
       
     </Properties>
-    <License>extension/LICENSE.txt</License>
+    <License>extension/LICENSE</License>
     <Icon>extension/images/plsql-icon.png</Icon>
   </Metadata>
   <Installation>
