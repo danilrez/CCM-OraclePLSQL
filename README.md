@@ -1,4 +1,4 @@
-<div style="background: #525B7C;"><div style="padding: 10px"><h1 style="font-weight: bold; color: #ffa500">CCM Oracle PL/SQL Highlighting </h1></div></div>
+<div style="background: #525B7C; border-radius: 5px"><div style="padding: 10px"><h1 style="font-weight: bold; color: #ffa500">CCM Oracle PL/SQL Highlighting </h1></div>
 
 <div style="background: #525B7C;"><div style="padding: 10px">
 <p style="font-weight: bold; color: white">This extension adds full syntax highlight for Oracle PL/SQL.</p>
@@ -36,4 +36,6 @@ Be nice.
 
 Authored by © [CrappyCodeMaker](https://github.com/CrappyCodeMaker)
 
- </div></div>
+ </div>
+ </div>
+</div>
