@@ -160,8 +160,8 @@
         </dict>
         <dict>
             <key>match</key>
-            <string>[!&lt;&gt;:]?=|&lt;&gt;|&lt;|&gt;|\+|(?&lt;!\.)\*|-|(?&lt;!^)/|\|\|</string> 
-			<!-- <string>(?i)([!&lt;&gt;:]?=|&lt;&gt;|&lt;|&gt;|\+|(?&lt;!\.)\*|-|(?&lt;!^)/|\|\|) | [\.\^\+\!\#\$\%\^\&\*\[\{\}\_\=\/\|\"\'\]\:\;\<\>\@\?\]</string> -->
+			<string>[._^%$*<>\\\/\|\[\];=:&+{}#!~@,-]</string>
+            <!--default><string>[!&lt;&gt;:]?=|&lt;&gt;|&lt;|&gt;|\+|(?&lt;!\.)\*|-|(?&lt;!^)/|\|\|</string><-->
             <key>name</key>
             <string>keyword.operator.oracleplsql</string>
         </dict>
@@ -294,19 +294,19 @@
         </dict>
         <dict>
             <key>match</key>
-            <string>(?i)\b(end|then|deterministic|exception|when|declare|begin|in|out|nocopy|is|as|exit|open|fetch|into|close|subtype|type|rowtype|default|exclusive|mode|lock|record|index\s+by|result_cache|constant|comment|\.(nextval|currval))\b</string>
+            <string>(?i)\b(end|then|deterministic|exception|when|declare|begin|in|out|nocopy|is|as|exit|open|fetch|into|close|subtype|type|rowtype|default|exclusive|mode|lock|record|result_cache|constant|comment|\.(nextval|currval))\b</string>
             <key>name</key>
             <string>keyword.other.oracleplsql</string>
         </dict>
         <dict>
             <key>match</key>
-            <string>(?i)\b(grant|revoke|alter|drop|force|add|check|constraint|primary\s+key|foreign\s+key|references|unique(\s+index)?|column|sequence|increment\s+by|cache|(materialized\s+)?view|trigger|storage|tablespace|pct(free|used)|(init|max)trans|logging)\b</string>
+            <string>(?i)\b(grant|revoke|alter|drop|force|add|check|constraint|primary\s+key|foreign\s+key|references|unique(\s+index)?|index\s+by|index|column|sequence|increment\s+by|cache|(materialized\s+)?view|trigger|storage|tablespace|pct(free|used)|(init|max)trans|logging)\b</string>
             <key>name</key>
             <string>keyword.other.ddl.oracleplsql</string>
         </dict>
            <dict>
             <key>match</key>
-            <string>(?i)\b(with|select|from|where|order\s+(siblings\s+)?by|group\s+by|rollup|cube|((left|right|cross|natural)\s+(outer\s+)?)?join|on|asc|desc|update|set|insert|into|values|delete|distinct|union|minus|intersect|having|limit|table|between|like|of|row|(range|rows)\s+between|nulls\s+first|nulls\s+last|before|after|all|any|exists|rownum|cursor|returning|over|partition\s+by|merge|using|matched|pivot|unpivot)\b</string>
+            <string>(?i)\b(with|select|from|where|order\s+(siblings\s+)?by|group\s+by|rollup|cube|((left|right|cross|natural|inner)\s+(outer\s+)?)?join|on|asc|desc|update|set|insert|into|values|delete|distinct|union|minus|intersect|having|limit|table|between|like|of|row|(range|rows)\s+between|nulls\s+first|nulls\s+last|before|after|all|any|exists|rownum|cursor|returning|over|partition\s+by|merge|using|matched|pivot|unpivot)\b</string>
             <key>name</key>
             <string>keyword.other.sql.oracleplsql</string>
         </dict>
