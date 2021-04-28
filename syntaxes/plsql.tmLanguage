@@ -160,7 +160,7 @@
         </dict>
         <dict>
             <key>match</key>
-			<string>[._^%$*<>\\\/\|\[\];=:&+{}#!~@,-]</string>
+			<string>[._^%$*<>\)\(\\\/\|\[\];=:&+}{#!~@,-]</string>
             <!--default><string>[!&lt;&gt;:]?=|&lt;&gt;|&lt;|&gt;|\+|(?&lt;!\.)\*|-|(?&lt;!^)/|\|\|</string><-->
             <key>name</key>
             <string>keyword.operator.oracleplsql</string>
