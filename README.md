@@ -37,7 +37,7 @@ Be nice.
 <div style="color: white;">
 
 <p align="center">
-  <img alt="preview1" width="100%" src="https://github.com/CrappyCodeMaker/CCM-Theme/blob/main_theme/images/Title.png?raw=true">
+  <img alt="preview1" width="100%" src="https://github.com/CrappyCodeMaker/CCM-OraclePLSQL/blob/master/images/Title.png?raw=true">
 </p>
 
 </div>
