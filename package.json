@@ -6,7 +6,7 @@
 	"publisher": "CrappyCodeMaker",
 	"icon": "icon.png",
 	"galleryBanner": {
-		"color": "#525B7C",
+		"color": "#1C1C1C",
 		"theme": "dark"
 	},
 	"homepage": "https://github.com/CrappyCodeMaker/CCM-OraclePLSQL",
