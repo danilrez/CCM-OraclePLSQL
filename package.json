@@ -1,81 +1,81 @@
 {
-	"name": "ccm-plsql-oracle",
-	"displayName": "CCM Oracle PL/SQL",
-	"description": "Oracle PL/SQL syntax highlighting",
-	"version": "1.0.7",
-	"publisher": "CrappyCodeMaker",
-	"icon": "icon.png",
-	"galleryBanner": {
-		"color": "#1C1C1C",
-		"theme": "dark"
-	},
-	"homepage": "https://github.com/CrappyCodeMaker/CCM-OraclePLSQL",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/CrappyCodeMaker/CCM-OraclePLSQL.git"
-	},
-	"bugs": {
-		"url": "https://github.com/CrappyCodeMaker/CCM-OraclePLSQL/issues"
-	},
-	"engines": {
-		"vscode": "^1.5.0"
-	},
-	"categories": [
-		"Programming Languages"
-	],
-	"keywords": [
-		"plsql",
-		"oracle",
-		"CCM",
-		"plsql oracle",
-		"oracle plsql"
-	],
-	"contributes": {
-		"languages": [
-			{
-				"id": "ccm-plsql",
-				"aliases": [
-					"PL/SQL (Oracle)",
-					"PL/SQL",
-					"PLSQL"
-				],
-				"extensions": [
-					".sql",
-					".ddl",
-					".dml",
-					".pkh",
-					".pks",
-					".pkb",
-					".pck",
-					".pls",
-					".plb",
-					".bdy",
-					".fnc",
-					".idx",
-					".mv",
-					".prc",
-					".prg",
-					".sch",
-					".seq",
-					".spc",
-					".syn",
-					".tab",
-					".tbl",
-					".tbp",
-					".tps",
-					".trg",
-					".typ",
-					".vw"
-				],
-				"configuration": "./syntaxes/plsql.configuration.json"
-			}
-		],
-		"grammars": [
-			{
-				"language": "ccm-plsql",
-				"scopeName": "source.plsql.oracle",
-				"path": "./syntaxes/plsql.tmLanguage"
-			}
-		]
-	}
+    "name": "ccm-plsql-oracle",
+    "displayName": "CCM Oracle PL/SQL",
+    "description": "Oracle PL/SQL syntax highlighting",
+    "version": "1.0.7",
+    "publisher": "CrappyCodeMaker",
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#1C1C1C",
+        "theme": "dark"
+    },
+    "homepage": "https://github.com/CrappyCodeMaker/CCM-OraclePLSQL",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CrappyCodeMaker/CCM-OraclePLSQL.git"
+    },
+    "bugs": {
+        "url": "https://github.com/CrappyCodeMaker/CCM-OraclePLSQL/issues"
+    },
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [
+        "plsql",
+        "oracle",
+        "CCM",
+        "plsql oracle",
+        "oracle plsql"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "ccm-plsql",
+                "aliases": [
+                    "PL/SQL (Oracle)",
+                    "PL/SQL",
+                    "PLSQL"
+                ],
+                "extensions": [
+                    ".sql",
+                    ".ddl",
+                    ".dml",
+                    ".pkh",
+                    ".pks",
+                    ".pkb",
+                    ".pck",
+                    ".pls",
+                    ".plb",
+                    ".bdy",
+                    ".fnc",
+                    ".idx",
+                    ".mv",
+                    ".prc",
+                    ".prg",
+                    ".sch",
+                    ".seq",
+                    ".spc",
+                    ".syn",
+                    ".tab",
+                    ".tbl",
+                    ".tbp",
+                    ".tps",
+                    ".trg",
+                    ".typ",
+                    ".vw"
+                ],
+                "configuration": "./syntaxes/plsql.configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "ccm-plsql",
+                "scopeName": "source.plsql.oracle",
+                "path": "./syntaxes/plsql.tmLanguage"
+            }
+        ]
+    }
 }
