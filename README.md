@@ -25,14 +25,6 @@ An advanced customization can be done just, follow this example:
 4. Enjoy! 🎉
 
 </div>
-<h2 style="font-weight: bold; color: white">Feedback</h2>
-<div style="color: white;">
-
-If you have suggestions, please <b>[open an issue](https://github.com/CrappyCodeMaker/CCM-OraclePLSQL/issues)</b> or better yet, a <b>[pull request](https://github.com/CrappyCodeMaker/CCM-OraclePLSQL/pulls)</b>.
-
-Be nice.
-
-</div>
 <h2 style="font-weight: bold; color: white">Preview</h2>
 <div style="color: white;">
 
