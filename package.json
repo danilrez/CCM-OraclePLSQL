@@ -28,15 +28,17 @@
 		"oracle",
 		"CCM",
 		"plsql oracle",
-		"oracle plsql"
+		"oracle plsql",
+		"pl/sql oracle",
+		"oracle pl/sql"
 	],
 	"contributes": {
 		"languages": [
 			{
 				"id": "plsql-ccm",
 				"aliases": [
-					"PL/SQL (Oracle)",
 					"PL/SQL",
+					"PL/SQL (Oracle)",
 					"PLSQL",
 					"ORACLE",
 					"oracle",
