@@ -19,11 +19,11 @@
     <string>(?i)\S*(BEGIN|IF|LOOP|CASE)\b</string>
     <key>foldingStopMarker</key>
     <string>(?i)\S*(END)\b</string>
-	<-->	
+	<-->
 	<key>keyEquivalent</key>
     <string>^~S</string>
     <key>name</key>
-    <string>PL/SQL (Oracle)</string>
+    <string>PL/SQL</string>
     <key>patterns</key>
     <array>
         <dict>
@@ -397,7 +397,7 @@
                     <string>(?i)\bVARCHAR2\s*\(\s*(\d+)\s*((BYTE)|(CHAR))?\s*\)\b</string>
                 </dict>
             </array>
-        </dict>	
+        </dict>
         <dict>
             <key>patterns</key>
             <array>
@@ -414,7 +414,7 @@
                     <string>(?i)"[^"]*"</string>
                 </dict>
             </array>
-        </dict>		
+        </dict>
     </array>
     <key>scopeName</key>
     <string>source.plsql.oracle</string>
