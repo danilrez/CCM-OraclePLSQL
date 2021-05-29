@@ -9,11 +9,19 @@ An advanced customization can be done just, follow this example:
 
 > <p style="color: white"><b style="color: #FFBB00;">PATH</b> according to your platform:</p>
 >
-> -   <i style="color: white"><b style="color: white;">Windows</b> %USERPROFILE%\\.vscode\extensions</i>
-> -   <i style="color: white"><b style="color: white;">Mac</b> ~/.vscode/extensions</i>
-> -   <i style="color: white"><b style="color: white;">Linux</b> ~/.vscode/extensions</i>
+> - <i style="color: white"><b style="color: white;">Windows</b> %USERPROFILE%\\.vscode\extensions</i>
+> - <i style="color: white"><b style="color: white;">Mac</b> ~/.vscode/extensions</i>
+> - <i style="color: white"><b style="color: white;">Linux</b> ~/.vscode/extensions</i>
 
 2. Modify <b style="color: #FFBB00;">syntaxes</b> with some custom definitions
+
+</div>
+<h2 style="font-weight: bold; color: white">Preview</h2>
+<div style="color: white;">
+
+<p align="center">
+  <img alt="preview1" width="100%" src="https://github.com/CrappyCodeMaker/CCM-OraclePLSQL/blob/master/images/Title.png?raw=true">
+</p>
 
 </div>
 <h2 style="font-weight: bold; color: white">Installation</h2>
@@ -23,14 +31,6 @@ An advanced customization can be done just, follow this example:
 2. Search for `CCM Oracle PL/SQL`
 3. Click **Install**
 4. Enjoy! 🎉
-
-</div>
-<h2 style="font-weight: bold; color: white">Preview</h2>
-<div style="color: white;">
-
-<p align="center">
-  <img alt="preview1" width="100%" src="https://github.com/CrappyCodeMaker/CCM-OraclePLSQL/blob/master/images/Title.png?raw=true">
-</p>
 
 </div>
 <h2 style="font-weight: bold; color: white">Feedback</h2>
