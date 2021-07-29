@@ -192,13 +192,13 @@
         </dict>
         <dict>
             <key>match</key>
-            <string>(?i)\b(%(isopen|found|notfound|rowcount)|commit|rollback|sqlerrm)\b</string>
+            <string>(?i)\b(%(isopen|found|notfound|rowcount)|commit|rollback|sqlerrm|sqlcode)\b</string>
             <key>name</key>
             <string>oracleplsql.support.function</string>
         </dict>
         <dict>
             <key>match</key>
-            <string>(?i)\b(sql|sqlcode)\b</string>
+            <string>(?i)\b(sql)\b</string>
             <key>name</key>
             <string>variable.language.oracleplsql</string>
         </dict>
