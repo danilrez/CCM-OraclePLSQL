@@ -28,7 +28,7 @@
     <array>
         <dict>
             <key>match</key>
-            <string>(?i)\b(REAL|STRING|SYS_REFCURSOR|MSLABEL|INT|DEC|CHARACTER|BYTE|SYSDATE|TIMESTAMP(\s+WITH(\s+LOCAL)?\s+TIME\s+ZONE)?|INTERVAL\s*DAY(\(\D*\))?\s*TO\s*MONTH|INTERVAL\s*YEAR(\(\D*\))?\s*TO\s*SECOND(\(\D*\))?|CHAR|VARCHAR|VARCHAR2|NCHAR|NVARCHAR2|BOOLEAN|DATE|XMLTYPE|BLOB|CLOB|NCLOB|BFILE|LONG|LONG\s+RAW|RAW|NUMBER|INTEGER|DECIMAL|SMALLINT|FLOAT|BINARY_(FLOAT|DOUBLE|INTEGER)|PLS_(FLOAT|DOUBLE|INTEGER)|ROWID|UROWID|VARARRAY|NATURAL|NATURALN|POSITIVE|POSITIVEN|SIGNTYPE|SIMPLE_(FLOAT|DOUBLE|INTEGER))\b</string>
+            <string>(?i)\b(DUAL|REAL|STRING|SYS_REFCURSOR|MSLABEL|INT|DEC|CHARACTER|BYTE|SYSDATE|TIMESTAMP(\s+WITH(\s+LOCAL)?\s+TIME\s+ZONE)?|INTERVAL\s*DAY(\(\D*\))?\s*TO\s*MONTH|INTERVAL\s*YEAR(\(\D*\))?\s*TO\s*SECOND(\(\D*\))?|CHAR|VARCHAR|VARCHAR2|NCHAR|NVARCHAR2|BOOLEAN|DATE|XMLTYPE|BLOB|CLOB|NCLOB|BFILE|LONG|LONG\s+RAW|RAW|NUMBER|INTEGER|DECIMAL|SMALLINT|FLOAT|BINARY_(FLOAT|DOUBLE|INTEGER)|PLS_(FLOAT|DOUBLE|INTEGER)|ROWID|UROWID|VARARRAY|NATURAL|NATURALN|POSITIVE|POSITIVEN|SIGNTYPE|SIMPLE_(FLOAT|DOUBLE|INTEGER))\b</string>
             <key>name</key>
             <string>support.type.oracleplsql</string>
         </dict>
@@ -167,7 +167,7 @@
         </dict>
         <dict>
             <key>match</key>
-            <string>(?i)\b(true|false|null|is\s+(not\s+)?null)\b</string>
+            <string>(?i)\b(true|false|null|is\s+(not\s+)?null|IfNotNull)\b</string>
             <key>name</key>
             <string>constant.language.oracleplsql</string>
         </dict>
@@ -294,7 +294,7 @@
         </dict>
         <dict>
             <key>match</key>
-            <string>(?i)\b(end|then|deterministic|exception|when|declare|begin|in|out|nocopy|is|as|exit|open|fetch|into|close|subtype|type|rowtype|default|exclusive|mode|lock|record|result_cache|constant|comment|\.(nextval|currval))\b</string>
+            <string>(?i)\b(end|then|deterministic|exception|when|declare|begin|in|out|nocopy|is|as|exit|open|fetch|into|close|subtype|type|rowtype|default|exclusive|mode|lock|record|result_cache|constant|comment|\.(nextval|currval)|PASSING|COLUMNS|PERSONID|ISSEGMENTED)\b</string>
             <key>name</key>
             <string>keyword.other.oracleplsql</string>
         </dict>
@@ -306,7 +306,7 @@
         </dict>
            <dict>
             <key>match</key>
-            <string>(?i)\b(with|select|from|where|order\s+(siblings\s+)?by|group\s+by|rollup|cube|((left|right|cross|natural|inner)\s+(outer\s+)?)?join|on|asc|desc|update|set|insert|into|values|delete|distinct|union|minus|intersect|having|limit|table|between|like|of|row|(range|rows)\s+between|nulls\s+first|nulls\s+last|before|after|all|any|exists|rownum|cursor|returning|over|partition\s+by|merge|using|matched|pivot|unpivot)\b</string>
+            <string>(?i)\b(with|select|from|where|order\s+(siblings\s+)?by|group\s+by|rollup|cube|((left|right|cross|natural|inner)\s+(outer\s+)?)?join|on|asc|desc|update|set|insert|into|values|delete|distinct|union|minus|intersect|having|limit|table|between|like|of|row|(range|rows)\s+between|nulls\s+first|nulls\s+last|before|after|all|any|exists|rownum|cursor|returning|over|partition\s+by|merge|using|matched|pivot|unpivot|CONNECT BY|(WITHIN GROUP))\b</string>
             <key>name</key>
             <string>keyword.other.sql.oracleplsql</string>
         </dict>
