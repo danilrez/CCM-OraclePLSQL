@@ -1,6 +1,6 @@
 <div style="background: #1C1C1C; border-radius: 5px"><div style="padding: 10px">
 
-# <img src="https://github.com/CrappyCodeMaker/CCM-OraclePLSQL/blob/master/images/title_logo.svg">
+# ![title_logo](https://github.com/CrappyCodeMaker/CCM-OraclePLSQL/blob/master/images/title_logo.png)
 
 <div style="color: white;">
 <p style="font-weight: bold; color: white">This extension adds full syntax highlight for Oracle PL/SQL.</p>
