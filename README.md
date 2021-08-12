@@ -1,3 +1,10 @@
+<div align="center">
+
+![Installs](https://img.shields.io/visual-studio-marketplace/i/CrappyCodeMaker.ccm-plsql-oracle?color=117fc8&label=Installs&logo=docusign&logoColor=white)
+![Version](https://img.shields.io/visual-studio-marketplace/v/CrappyCodeMaker.ccm-plsql-oracle?color=117fc8&label=Visual%20Studio%20Marketplace%20Version&logo=wikidata&logoColor=fff)
+
+</div>
+
 <div style="background: #1C1C1C; border-radius: 5px"><div style="padding: 10px">
 
 # ![title_logo](https://github.com/CrappyCodeMaker/CCM-OraclePLSQL/blob/master/images/title_logo.png?raw=true)
