@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Installs](https://img.shields.io/visual-studio-marketplace/i/CrappyCodeMaker.ccm-plsql-oracle?color=117fc8&label=Installs&logo=docusign&logoColor=white)
-![Version](https://img.shields.io/visual-studio-marketplace/v/CrappyCodeMaker.ccm-plsql-oracle?color=117fc8&label=Visual%20Studio%20Marketplace%20Version&logo=wikidata&logoColor=fff)
+![Version](https://img.shields.io/visual-studio-marketplace/v/CrappyCodeMaker.ccm-plsql-oracle?color=117fc8&label=Visual%20Studio%20Marketplace&logo=wikidata&logoColor=fff)
 
 </div>
 
