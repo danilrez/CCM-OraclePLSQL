@@ -2,20 +2,8 @@
 <h1><img src="https://github.com/CrappyCodeMaker/CCM-OraclePLSQL/blob/master/images/title_logo.svg"></h1>
 <div style="color: white;">
 <p style="font-weight: bold; color: white">This extension adds full syntax highlight for Oracle PL/SQL.</p>
-
-An advanced customization can be done just, follow this example:
-
-1. Make backup for this folder: <b style="color: #fad184;"><i style="color: #FFBB00;">PATH</i>\crappycodemaker.ccm-plsql-oracle\syntaxes</b>
-
-> <p style="color: white"><b style="color: #FFBB00;">PATH</b> according to your platform:</p>
->
-> - <i style="color: white"><b style="color: white;">Windows</b> %USERPROFILE%\\.vscode\extensions</i>
-> - <i style="color: white"><b style="color: white;">Mac</b> ~/.vscode/extensions</i>
-> - <i style="color: white"><b style="color: white;">Linux</b> ~/.vscode/extensions</i>
-
-2. Modify <b style="color: #FFBB00;">syntaxes</b> with some custom definitions
-
 </div>
+
 <h2 style="font-weight: bold; color: white">Preview</h2>
 <div style="color: white;">
 
@@ -27,9 +15,9 @@ An advanced customization can be done just, follow this example:
 <h2 style="font-weight: bold; color: white">Installation</h2>
 <div style="color: white;">
 
-1. Open the **Extensions** sidebar in VS Code
-2. Search for `CCM Oracle PL/SQL`
-3. Click **Install**
+1. Open the **`Extensions`** sidebar in ![Visual Studio Code Badge](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?logo=visualstudiocode&logoColor=fff&style=flat-square)
+2. Search for **`CCM Oracle PL/SQL`**
+3. Click **`Install`**
 4. Enjoy! 🎉
 
 </div>
