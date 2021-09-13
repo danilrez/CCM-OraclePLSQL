@@ -28,7 +28,7 @@
     <array>
         <dict>
             <key>match</key>
-            <string>(?i)\b(DUAL|REAL|STRING|SYS_REFCURSOR|MSLABEL|INT|DEC|CHARACTER|BYTE|SYSDATE|TIMESTAMP(\s+WITH(\s+LOCAL)?\s+TIME\s+ZONE)?|INTERVAL\s*DAY(\(\D*\))?\s*TO\s*MONTH|INTERVAL\s*YEAR(\(\D*\))?\s*TO\s*SECOND(\(\D*\))?|CHAR|VARCHAR|VARCHAR2|NCHAR|NVARCHAR2|BOOLEAN|DATE|XMLTYPE|BLOB|CLOB|NCLOB|BFILE|LONG|LONG\s+RAW|RAW|NUMBER|INTEGER|DECIMAL|SMALLINT|FLOAT|BINARY_(FLOAT|DOUBLE|INTEGER)|PLS_(FLOAT|DOUBLE|INTEGER)|ROWID|UROWID|VARARRAY|NATURAL|NATURALN|POSITIVE|POSITIVEN|SIGNTYPE|SIMPLE_(FLOAT|DOUBLE|INTEGER))\b</string>
+            <string>(?i)\b(VARRAY|DUAL|REAL|STRING|SYS_REFCURSOR|MSLABEL|INT|DEC|CHARACTER|BYTE|SYSDATE|TIMESTAMP(\s+WITH(\s+LOCAL)?\s+TIME\s+ZONE)?|INTERVAL\s*DAY(\(\D*\))?\s*TO\s*MONTH|INTERVAL\s*YEAR(\(\D*\))?\s*TO\s*SECOND(\(\D*\))?|CHAR|VARCHAR|VARCHAR2|NCHAR|NVARCHAR2|BOOLEAN|DATE|XMLTYPE|BLOB|CLOB|NCLOB|BFILE|LONG|LONG\s+RAW|RAW|NUMBER|INTEGER|DECIMAL|SMALLINT|FLOAT|BINARY_(FLOAT|DOUBLE|INTEGER)|PLS_(FLOAT|DOUBLE|INTEGER)|ROWID|UROWID|VARARRAY|NATURAL|NATURALN|POSITIVE|POSITIVEN|SIGNTYPE|SIMPLE_(FLOAT|DOUBLE|INTEGER))\b</string>
             <key>name</key>
             <string>support.type.oracleplsql</string>
         </dict>
@@ -57,6 +57,34 @@
             <string>(?i)(?:^\s*)prompt(?:\s+.*$)</string>
             <key>name</key>
             <string>comment.line.sqlplus-prompt.oracleplsql</string>
+        </dict>
+        <dict>
+            <key>captures</key>
+            <dict>
+                <key>1</key>
+                <dict>
+                    <key>name</key>
+                    <string>support.constant.oracleplsql</string>
+                </dict>
+            </dict>
+            <key>match</key>
+            <string>(?i)(?:end loop|goto)(.\S+)(?:\;)</string>
+            <key>name</key>
+            <string>keyword.control.oracleplsql</string>
+        </dict>
+        <dict>
+            <key>captures</key>
+            <dict>
+                <key>1</key>
+                <dict>
+                    <key>name</key>
+                    <string>support.constant.oracleplsql</string>
+                </dict>
+            </dict>
+            <key>match</key>
+            <string>(?i)(?:&lt;&lt;)(.\S+)(?:&gt;&gt;)</string>
+            <key>name</key>
+            <string>keyword.operator</string>
         </dict>
         <dict>
             <key>captures</key>
@@ -252,7 +280,7 @@
         </dict>
         <dict>
             <key>match</key>
-            <string>(?i)\b(appendchildxml|deletexml|depth|extract|existsnode|extractvalue|insertchildxml|insertxmlbefore|xmlcast|xmldiff|xmlelement|xmlexists|xmlisvalid|insertchildxmlafter|insertchildxmlbefore|path|sys_dburigen|sys_xmlagg|sys_xmlgen|updatexml|xmlagg|xmlcdata|xmlcolattval|xmlcomment|xmlconcat|xmlforest|xmlparse|xmlpi|xmlquery|xmlroot|xmlsequence|xmlserialize|xmltable|xmltransform)\b</string>
+            <string>(?i)\b(appendchildxml|deletexml|depth|extract|existsnode|extractvalue|insertchildxml|insertxmlbefore|xmlcast|xmldiff|xmlelement|xmlexists|xmlisvalid|insertchildxmlafter|insertchildxmlbefore|path|sys_dburigen|sys_xmlagg|sys_xmlgen|updatexml|xmlagg|xmlcdata|xmlcolattval|xmlcomment|xmlconcat|xmlforest|xmlparse|xmlpi|xmlquery|xmlroot|xmlsequence|xmlserialize|xmltable|xmlnamespaces|xmltransform)\b</string>
             <key>name</key>
             <string>support.function.builtin.xml.oracleplsql</string>
         </dict>
