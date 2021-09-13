@@ -68,7 +68,7 @@
                 </dict>
             </dict>
             <key>match</key>
-            <string>(?i)(?:end loop|goto)(.\S+)(?:\;)</string>
+            <string>(?i)(?:end loop|goto)(.\w+)</string>
             <key>name</key>
             <string>keyword.control.oracleplsql</string>
         </dict>
@@ -84,7 +84,7 @@
             <key>match</key>
             <string>(?i)(?:&lt;&lt;)(.\S+)(?:&gt;&gt;)</string>
             <key>name</key>
-            <string>keyword.operator</string>
+            <string>keyword.operator.oracleplsql</string>
         </dict>
         <dict>
             <key>captures</key>
