@@ -1,45 +1,45 @@
 {
-	"comments": {
-		// symbol used for single line comment. Remove this entry if your language does not support line comments
-		"lineComment": "--",
-		// symbols used for start and end a block comment. Remove this entry if your language does not support block comments
-		"blockComment": ["/*", "*/"]
-	},
-	// symbols used as brackets
-	"brackets": [
-		["if", "end if"],
-		["loop", "end loop"],
-		["case", "end case"],
-		["begin", "end"],
-		["{", "}"],
-		["[", "]"],
-		["(", ")"]
-	],
-	"autoClosingPairs": [
-		["{", "}"],
-		["[", "]"],
-		["(", ")"],
-		["\"", "\""],
-		["/*", "*/"],
-		["<%=", "%>"],
-		{ "open": "'", "close": "'", "notIn": ["string", "comment"] }
-	],
-	// symbols that that can be used to surround a selection
-	"surroundingPairs": [
-		["{", "}"],
-		["[", "]"],
-		["(", ")"],
-		["\"", "\""],
-		["'", "'"]
-	],
-	//comming soon... i guess
-	//"folding": {
-	//    "markers": {
-	//        "offSide"  :true,
-	//        "start" : "\\S*[Bb][Ee][Gg][Ii][nN]\\b",
-	//        "end" : "\\S*[eE][Nn][Dd]\\b",
-	//    }
-	//},
-	// Default
-	"wordPattern": "(-?\\d*\\.\\d\\w*)|([^\\`\\~\\!\\@\\%\\^\\&\\*\\(\\)\\-\\=_\\+\\[\\{\\]\\}\\\\\\|\\;\\:\\'\\\"\\,\\.\\<\\>\\/\\?\\s]+)"
+  "comments": {
+    // symbol used for single line comment. Remove this entry if your language does not support line comments
+    "lineComment": "--",
+    // symbols used for start and end a block comment. Remove this entry if your language does not support block comments
+    "blockComment": ["/*", "*/"]
+  },
+  // symbols used as brackets
+  "brackets": [
+    ["if", "end if"],
+    ["loop", "end loop"],
+    ["case", "end case"],
+    ["begin", "end"],
+    ["{", "}"],
+    ["[", "]"],
+    ["(", ")"]
+  ],
+  "autoClosingPairs": [
+    ["{", "}"],
+    ["[", "]"],
+    ["(", ")"],
+    ["\"", "\""],
+    ["/*", "*/"],
+    ["<%=", "%>"],
+    { "open": "'", "close": "'", "notIn": ["string", "comment"] }
+  ],
+  // symbols that that can be used to surround a selection
+  "surroundingPairs": [
+    ["{", "}"],
+    ["[", "]"],
+    ["(", ")"],
+    ["\"", "\""],
+    ["'", "'"]
+  ],
+  // if u don't have "Bracket Pair Colorizer 2"
+  "folding": {
+    "markers": {
+      "offSide": true,
+      "start": "\\S*[Bb][Ee][Gg][Ii][nN]\\b",
+      "end": "\\S*[eE][Nn][Dd]\\b"
+    }
+  },
+  // Default
+  "wordPattern": "(-?\\d*\\.\\d\\w*)|([^\\`\\~\\!\\@\\%\\^\\&\\*\\(\\)\\-\\=_\\+\\[\\{\\]\\}\\\\\\|\\;\\:\\'\\\"\\,\\.\\<\\>\\/\\?\\s]+)"
 }

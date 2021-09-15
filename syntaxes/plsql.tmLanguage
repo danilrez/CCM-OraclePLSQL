@@ -14,7 +14,13 @@
         <string>pls</string>
         <string>plb</string>
     </array>
-	<key>keyEquivalent</key>
+	  <!-- if u don't have "Bracket Pair Colorizer 2" -->
+	  <key>foldingStartMarker</key>
+    <string>(?i)\S*(begin|if|loop|case)\b</string>
+    <key>foldingStopMarker</key>
+    <string>(?i)\S*end(\s+if|\s+case|\s+loop)?\W\b</string>
+	  <!-- end -->
+    <key>keyEquivalent</key>
     <string>^~S</string>
     <key>name</key>
     <string>PL/SQL</string>
@@ -157,13 +163,14 @@
             <key>name</key>
             <string>string.quoted.double.oracleplsql</string>
         </dict>
-
+        <!-- OTHERS -->
         <dict>
             <key>match</key>
             <string>(?i)\b(if|elsif|else|end\s+if|loop|end\s+loop|for|when|then|while|case|end\s+case|continue|return|goto)\b</string>
             <key>name</key>
             <string>keyword.control.oracleplsql</string>
         </dict>
+        <!-- FOR CONDITIONS -->
         <dict>
             <key>match</key>
             <string>(?i)\b(or|and|not|like)\b</string>
