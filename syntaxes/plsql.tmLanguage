@@ -95,7 +95,7 @@
                 </dict>
             </dict>
             <key>match</key>
-            <string>(?i)\b(create\s+or\s+replace)\s+(procedure|function|package(\s+body)?)\s+(\w+)</string>
+            <string>(?i)\b(create\s+or\s+replace)\s+(trigger|procedure|function|package(\s+body)?)\s+(\w+)</string>
             <key>name</key>
             <string>meta.create.oracleplsql</string>
         </dict>
@@ -124,6 +124,31 @@
             <key>name</key>
             <string>meta.package.oracleplsql</string>
         </dict>
+        <!-- CREATE -->
+        <dict>
+            <key>captures</key>
+            <dict>
+                <key>1</key>
+                <dict>
+                    <key>name</key>
+                    <string>keyword.other.oracleplsql</string>
+                </dict>
+                <key>2</key>
+                <dict>
+                    <key>name</key>
+                    <string>storage.modifier.oracleplsql</string>
+                </dict>
+                <key>3</key>
+                <dict>
+                    <key>name</key>
+                    <string>entity.name.function.oracleplsql</string>
+                </dict>
+            </dict>
+            <key>match</key>
+            <string>(?i)\b(create)\s+(table|sequence|unique\s+index|index)\s+(\w+)</string>
+            <key>name</key>
+            <string>meta.create.oracleplsql</string>
+        </dict>
         <!-- OPERATORS -->
         <dict>
             <key>match</key>
@@ -135,7 +160,7 @@
         <!-- BOOLEAN -->
         <dict>
             <key>match</key>
-            <string>(?i)\b(true|false|null|is\s+(not\s+)?null|IfNotNull)\b</string>
+            <string>(?i)\b(true|false|null|not\s+(null)|is\s+(not\s+)?null|IfNotNull)\b</string>
             <key>name</key>
             <string>constant.language.oracleplsql</string>
         </dict>
@@ -166,7 +191,13 @@
         <!-- OTHERS -->
         <dict>
             <key>match</key>
-            <string>(?i)\b(if|elsif|else|end\s+if|loop|end\s+loop|for|when|then|while|case|end\s+case|continue|return|goto)\b</string>
+            <string>(?i)\b(for\s+(each)\s+row)</string>
+            <key>name</key>
+            <string>keyword.other.oracleplsql</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>(?i)\b(if|elsif|else|end\s+if|loop|end\s+loop|for|each|when|then|while|case|end\s+case|continue|return|goto)\b</string>
             <key>name</key>
             <string>keyword.control.oracleplsql</string>
         </dict>
@@ -283,7 +314,7 @@
         </dict>
         <dict>
             <key>match</key>
-            <string>(?i)\b(end|then|deterministic|exception|when|declare|begin|in|out|nocopy|is|as|exit|open|fetch|into|close|subtype|type|rowtype|default|exclusive|mode|lock|record|result_cache|constant|comment|\.(nextval|currval)|PASSING|COLUMNS|PERSONID|ISSEGMENTED)\b</string>
+            <string>(?i)\b(create|minvalue|maxvalue|end|then|deterministic|exception|when|declare|begin|in|out|nocopy|is|as|exit|open|fetch|into|close|subtype|type|rowtype|default|exclusive|mode|lock|record|result_cache|constant|comment|\.(nextval|currval)|PASSING|COLUMNS)\b</string>
             <key>name</key>
             <string>keyword.other.oracleplsql</string>
         </dict>
