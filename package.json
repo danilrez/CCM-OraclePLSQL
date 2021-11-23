@@ -2,7 +2,7 @@
 	"name": "ccm-plsql-oracle",
 	"displayName": "CCM Oracle PL/SQL",
 	"description": "Oracle PL/SQL syntax highlighting",
-	"version": "1.0.24",
+	"version": "1.0.25",
 	"publisher": "CrappyCodeMaker",
 	"icon": "icon.png",
 	"galleryBanner": {
